@@ -133,6 +133,20 @@ main {
 	margin: 2rem 0 1rem 0;
 }
 
+.quote {
+	position: relative;
+}
+
+.quote::before {
+	content: "\201C";
+	font-size: 4em;
+	position: absolute;
+	left: -10px;
+	top: -18px;
+	opacity: 0.2;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .property-details {
 	text-align: center;
 }
