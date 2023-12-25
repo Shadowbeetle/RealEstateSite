@@ -105,6 +105,24 @@
 	top: 0.75rem;
 }
 
+.content {
+	max-width: 1000px;
+	margin: 20px auto;
+}
+
+
+.customer-quotes {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.quotes-container {
+	max-width: 800px;
+	margin: 2rem 0 1rem 0;
+}
+
 @media (max-width: 768px) {
 	.navbar {
 		position: relative;
@@ -128,6 +146,11 @@
 
 	.hamburger {
 		display: flex;
+	}
+
+	.content {
+		margin: 10px;
+		width: 100%;
 	}
 }
 
