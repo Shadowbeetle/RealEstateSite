@@ -209,6 +209,13 @@ footer {
 	padding: 20px 0;
 }
 
+@media (max-width: 1024px) {
+	.content {
+		margin: 30px;
+		width: 100%;
+	}
+}
+
 @media (max-width: 768px) {
 	.navbar {
 		position: relative;
@@ -234,13 +241,14 @@ footer {
 		display: flex;
 	}
 
-	.content {
-		margin: 10px;
-		width: 100%;
-	}
 
 	.pt-xl {
 		padding-top: 2.5rem;
+	}
+
+	.content {
+		margin: 20px;
+		width: 100%;
 	}
 }
 
@@ -253,6 +261,7 @@ footer {
 	.hero-text {
 		font-size: 18px;
 	}
+
 }
 
 @media screen and (max-width: 480px) {
