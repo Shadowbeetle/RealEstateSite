@@ -221,10 +221,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-	.navbar {
-		position: relative;
-	}
-
 	.nav-links {
 		display: none;
 		max-height: 0;
